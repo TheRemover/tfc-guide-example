@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "db_table_name" {
   type    = string
-  default = "exampleTable"
+  default = "terraform-learn"
 }
 
 variable "db_read_capacity" {
@@ -17,7 +17,6 @@ variable "db_write_capacity" {
   type    = number
   default = 1
 }
-
 
 variable "tag_user_name" {
   type = string
